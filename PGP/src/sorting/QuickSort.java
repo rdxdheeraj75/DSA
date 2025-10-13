@@ -4,9 +4,19 @@ import java.util.Arrays;
 
 public class QuickSort {
 	
+	/**
+	 * 
+	 * Time Complexity
+	 * 		
+	 * 		Average case-> O(nlogn)
+	 * 		Best case-> O(nlogn)
+	 * 		Worst case-> O(n^2)
+	 * 
+	 * 
+	 * */
 	public static void main(String[] args) {
 		
-		int[] arr = {2,4,1,6,9,-3,87,0};
+		int[] arr = {2,4,1,6,1,-3,87,6};
 		quickSort(arr,0,7);
 		
 		System.out.println(Arrays.toString(arr));
