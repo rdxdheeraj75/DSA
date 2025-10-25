@@ -10,7 +10,7 @@ public class QuickSort {
 	 * 		
 	 * 		Average case-> O(nlogn)
 	 * 		Best case-> O(nlogn)
-	 * 		Worst case-> O(n^2)
+	 * 		Worst case-> O(n^2) when we have already sorted array
 	 * 
 	 * 
 	 * */
